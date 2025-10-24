@@ -1,0 +1,856 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  font-family: "Noto Sans";
+}
+
+h1, h2 {
+  font-family: "Roboto Serif";
+}
+
+header {
+  max-width: 139.2rem;  
+  margin: auto;
+  margin-top: 2.5rem;   
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.6rem 0;   
+  font-weight: 500;
+}
+
+.logo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  margin-top: 9.1rem; 
+}
+.list ul {
+  display: flex;
+  list-style: none;
+  gap: 2.7rem;        
+}
+
+.list a {
+  text-decoration: none;
+  font-size: 1.6rem;   
+  color: #000000;
+}
+
+.list li:first-child a {
+  font-weight: 700;
+}
+
+.list2 ul {
+  display: flex;
+  list-style: none;
+  gap: 2.7rem;        
+}
+
+.list2 a {
+  text-decoration: none;
+  font-size: 1.6rem;    
+  color: #000000;
+}
+
+.list2 li:last-child a {
+  background: #51CF66;
+  color: #fff;
+  padding: 0.4rem 1.6rem;  
+  border-radius: 2rem;  
+}
+
+.main-img {
+  position: relative;
+  margin-top: 1.2rem;  
+}
+
+.main-img img {
+  max-width: 100%;
+  display: block;    
+}
+
+.sbox {
+  position: absolute;
+  bottom: 14rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 100%;             
+  max-width: 96.7rem;      
+  height: 8.8rem;
+  padding: 0 1.6rem;
+  box-sizing: border-box;
+ 
+}
+
+.sbox .icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-right: -3rem;
+  z-index: 1;
+}
+
+.sbox input {
+  flex: 1;                 
+  height: 6rem;
+  padding-left: 4.5rem;
+  font-size: 1.8rem;
+  border: none;          
+  outline: none; 
+}
+
+.sbox a {
+  margin-left: 1rem;
+  background: #51CF66;
+  padding: 0.5rem;       
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 1rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* 세션1 */
+.sect1 {
+  max-width: 139.2rem;
+  width: 100%;
+  margin: 21.6rem auto 6rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.title2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding: 2rem 0;
+  
+}
+
+.box {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  border: 1px solid #DEE2E6;
+  border-radius: 2.4rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.box-img {
+  max-width: 45%;     
+  height: auto;
+  display: block;
+  border-radius: 1.6rem;
+}
+
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.ul-list {
+  margin-left: 2.5rem;
+}
+
+.btn {
+  background: #51CF66;
+  width: 11.6rem;
+  height: 5.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+
+.sect2, .sect3, .sect4 {
+  max-width: 144rem;
+  margin: 20rem auto 0;
+  padding: 0 2.4rem;
+}
+
+.sect2 h1, .sect3 h1, .sect4 h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.sect2 h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.tour-wrap {
+  position: relative;
+}
+
+.tour-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+.tour {
+  flex: 1;
+}
+
+.tour figure img {
+  width: 100%;
+  display: block;
+}
+
+.p-contents {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+.p-contents p {
+  margin: 1rem 0;
+}
+
+.p-contents span {
+  font-weight: 700;
+  color: #2C2C2C;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+
+
+.sect5 {
+  width: 100%;
+  margin-top: 20rem;
+  background: #D3F9D8;
+  position: relative;
+  overflow: hidden;
+  padding: 8rem 0;
+}
+
+.sect5 h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  margin-left: 10%; 
+}
+
+.video-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 109.8rem;      
+  margin-left: 57%;    
+  transform: translateX(-50%);
+}
+
+.video-list {
+  display: flex;
+  gap: 1.6rem;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.video {
+  flex: 0 0 auto;
+  width: 27.3%;             
+  max-width: 30rem;        
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+.iframe-box {
+  position: relative;
+  width: 100%;
+  padding-top: 135%;          
+  overflow: hidden;
+}
+
+.iframe-box iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.sinfo {
+  margin-top: 0;           
+  display: flex;
+  align-items: center;
+}
+
+.simg {
+  max-width: 100%;
+  display: block;
+}
+
+.sinfo p {
+  flex: 1;
+  margin: 0;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background: #fff;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #868E96;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 15;
+}
+
+
+.prev-btn { left: -2rem; }
+.next-btn { right: -2rem; }
+
+
+
+/* 세션6 */
+.sect6 {
+  max-width: 144rem;
+  margin: 10rem auto 0;
+  padding: 0 2.4rem;
+}
+
+.sect6 h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+.tour {
+  flex: 1;
+}
+
+.tour figure img {
+  width: 100%;
+  display: block;
+}
+
+.p-contents {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+}
+
+
+
+/* 숨긴 버튼 */
+.tour-wrap .next-btn {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #868E96;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 15;
+    display: none;
+  }
+
+/* footer 영역 */
+.footer {
+  margin-top: 20rem;
+  font-size: 1.2rem;
+  background: #fff;
+}
+
+.footer-line {
+  width: 100%;
+  height: 0.1rem;
+  margin-bottom: 5rem;
+  background: #ADB5BD;
+}
+
+.footer-inner {
+  max-width: 139.2rem; 
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  gap: 5rem;
+}
+
+.footer-top ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-top li {
+  margin-top: 2rem;
+}
+
+.footer-top strong {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12.1rem;
+  margin-bottom: 3.2rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-img img {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-left: 2rem;
+}
+
+.footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.ham { 
+  width: 30px; 
+  height: 30px; 
+  display: none; 
+} 
+
+.ham .line { 
+  width: 100%; 
+  height: 3px; 
+  background-color: #000000; 
+  border-radius: 3px; 
+}
+
+.ham .line:nth-child(2){
+  margin: 10.5px 0;
+}
+
+@media (max-width: 1024px) {
+  header {
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+
+  .list ul {
+    gap: 2rem;
+  }
+
+  .list a,
+  .list2 a {
+    font-size: 1.2rem;
+  }
+
+  .logo img {
+    width: 25rem;
+    height: 3rem;
+  }
+
+  .sbox {
+    width: 50rem;
+    height: 6rem;
+    bottom: 8rem;
+  }
+
+  .sbox input {
+    height: 4.5rem;
+    font-size: 1.6rem;
+  }
+
+  .sbox a {
+    height: 4.5rem;
+    font-size: 1.6rem;
+  }
+
+  .sbox .icon {
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+
+  .sect1,
+  .sect2,
+  .sect3,
+  .sect4,
+  .sect5,
+  .sect6,
+  .footer {
+    margin-top: 16.9rem;
+  }
+
+  .sect1 .text p,
+  .sect1 .text li,
+  .sect1 .title,
+  .sect1 .btn  {
+    font-size: 2rem;
+  }
+
+  .sect2 h1,
+  .sect3 h1,
+  .sect4 h1,
+  .sect6 h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .sect2 p,
+  .sect3 p,
+  .sect4 p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .tour-list img {
+    width: 23rem;
+    height: 17.5rem;
+  }
+
+  .tour .p-contents p,
+  .tour .p-contents span {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+
+  .sect5 {
+    padding: 4rem 0;
+  }
+
+  .sect5 h2 {
+    font-size: 1.6rem;
+    margin-left: 5.4rem;
+  }
+
+  .sect5 .next-btn {
+    margin-right: 92px;        
+  }
+
+  .sect5 p {
+    font-size: 1.2rem;
+  }
+
+  .sinfo p {
+    padding: 1.8rem;
+  }
+
+  .footer-inner {
+    padding: 0 2.1rem;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .list {
+    display: none;
+  }
+  
+  .list2 ul {
+    display: none;
+  }
+
+  header .list2 .ham {
+    display: block;
+  }
+
+  .main-img {
+    margin-top: 3.6rem;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .logo img {
+    width: 15.4rem;   
+    height: 2rem;    
+  }
+
+  .sect1,
+  .sect2,
+  .sect3,
+  .sect4,
+  .sect5,
+  .sect6,
+  .footer {
+    margin-top: 6.8rem;
+  }
+
+  .main-img {
+    margin-top: 3.6rem;
+  }
+
+  .main-img img {
+    height: 24.6rem;
+  }
+
+  .sbox {         
+    max-width: 21.6rem;  
+    height: 3rem;        
+    bottom: 5rem;        
+  }
+
+  .sbox input {
+    flex: 1;           
+    height: 100%;        
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    margin: 0;           
+    padding-left: 0rem; 
+  }
+
+  .sbox a { 
+    width: 5rem;
+    flex: 0 0 5rem;
+    height: 2rem;  
+    border-radius: 5px;  
+    font-size: 0.8rem;
+  }
+
+  .sbox .icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 0.5rem;
+  }
+
+  .sect1 .box {
+    width: 32.7rem;
+    height: 19.1rem;
+    gap: 10px;             
+  }
+
+  .sect1 .box-img {
+    max-width: 100%;
+    width: 173px;
+    height: 150px;         
+  }
+
+  .sect1 .title, 
+  .title2 {
+    font-size: 1.6rem;   
+  }
+
+  .sect1 .title2 {
+    padding: 0.5rem 0; 
+  }
+
+  .sect1 .text {
+    gap: 0.5rem;
+  }
+
+  .sect1 .text p,
+  .sect1 .text li,
+  .sect1 .btn {
+    font-size: 0.8rem;
+  }
+
+  .sect1 .btn {
+    width: auto;           
+    min-width: 50px;
+    height: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;     
+  }
+
+  .sect2, .sect3, .sect4, .sect6 {
+    max-width: 100%;
+    padding: 1.6rem;
+  }
+
+  .sect2 h1,
+  .sect2 h2,
+  .sect3 h1,
+  .sect4 h1,
+  .sect6 h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .sect2 p,
+  .sect3 p,
+  .sect4 p,
+  .sect6 p {
+    font-size: 1.2rem;  
+    margin-bottom: 0.5rem;
+  }
+
+  .sect2 .tour-wrap,
+  .sect3 .tour-wrap,
+  .sect4 .tour-wrap,
+  .sect6 .tour-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .sect2 .tour-list,
+  .sect3 .tour-list,
+  .sect4 .tour-list,
+  .sect6 .tour-list {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .sect2 .tour img,
+  .sect3 .tour img,
+  .sect4 .tour img,
+  .sect6 .tour img {
+    max-width: none;
+    width: 230px;     
+    height: 175px;    
+    overflow: hidden;  
+    display: block;
+  }
+
+  .tour .p-contents p,
+  .tour .p-contents span{
+    font-size: 1.2rem;  
+    margin-top: 0.5rem;
+  }
+
+  .sect5 {
+    padding: 2rem 0;
+  }
+
+  .sect5 .video{
+    width: 50%;
+  }
+
+  .sect5 h2 {
+    font-size: 1rem;
+    margin-left: 1.6rem;
+  }
+
+  .sect5 .next-btn {
+    margin-right: 4.5rem;        
+  }
+
+  .sect5 p {
+    font-size: 1rem;
+  }
+
+  .sect5 .simg {
+    max-width: 30%;
+  }
+
+  .sinfo p {
+    padding: 0.5rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+    display: block;
+  }
+
+  .footer-inner {
+    padding: 0 1.6rem;
+  }
+
+  .footer-top {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;      
+    gap: 0.8rem;            
+  }
+
+  .footer-top strong {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .footer-top ul {
+    display: flex;
+    flex-wrap: wrap;       
+    gap: 1rem;
+  }
+
+  .footer-top li {
+    margin-top: 0;           
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;  
+    gap: 0.8rem;            
+    font-size: 1rem;       
+    margin-top: 3rem;        
+    margin-bottom: 2rem;
+  }
+
+  .footer-links {
+    display: flex;
+    margin: 0 auto;
+    gap: 0.5rem;
+  }
+
+  .footer-img {
+    margin-top: 1rem;       
+  }
+
+  .tour-wrap .next-btn {
+    display: block;
+  }
+}
